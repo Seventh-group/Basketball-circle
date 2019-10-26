@@ -1,0 +1,130 @@
+
+header{
+	border-bottom: 1px solid #F3F3F3;
+}
+.nav{
+	position:relative;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+}
+
+
+.menu{
+	margin-right: 290px;
+	display: flex;
+	display:-webkit-flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	list-style: none;
+	
+}
+.menu a{
+	color: #888888;
+    text-align: center;
+    font-size: 16px;
+    line-height: 80px;
+    display: block;
+    padding: 0 20px;
+	list-style: none;
+}
+.menu a span{
+	list-style: none;
+}
+.menu a:hover{
+	background:#f4f4f4;
+}
+
+#signIn {
+	border-radius: 2px;
+	text-align: center;
+	height: 30px;
+	position:absolute;
+	right: 30px;
+	padding-right:10px;
+	padding-left:10px;
+	top: 40px;
+	background:#6eb706;
+}
+#signIn a{
+	display: inline-block;
+	line-height: 30px;
+	font-size: 14px;
+	color: #ffffff;
+}
+#video-box{
+	width: 1000px;
+	margin: 0 auto;
+}
+.video-item{
+	float:left;
+  width: 320px;
+  height: 180px;
+  margin: 5px;
+  background: #000;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video-item-image{
+  
+
+ width: 100%;
+ height: 100%;
+  bottom:0;
+  overflow: hidden;
+}
+
+.video-item:hover .video-item-description{
+  top: 0;
+}
+
+.video-item-description{
+position: absolute;
+  color:white;
+  font-size: .8rem;
+  width: 94%;
+  height: 40px;
+  -webkit-transition:all .5s ease;
+  transition: all .5s ease;
+  background:rgba(3,3,3,.6);
+  position: absolute;
+  top:-60px;
+  padding-left: 6%;
+}
+.video-item-description h3{
+	line-height: 30px;
+}
+.video-item-description span{
+	color: rgba(255,255,255,.6);
+}
+.tittle{
+	margin: 0 auto;
+	text-align: center;
+}
+.tittle h2{
+	font-size: 24px;
+	line-height: 40px;
+
+}
+.tittle h2:before{
+	margin-right:80px;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align:  -moz-middle-with-baseline;
+	display: inline-block;
+	content:url(../IMG/矢量图标1.jpg);
+
+}
+.tittle h2:after{
+	margin-left:80px;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align:  -moz-middle-with-baseline;
+	display: inline-block;
+	content:url(../IMG/矢量图标1.jpg);
+
+}
