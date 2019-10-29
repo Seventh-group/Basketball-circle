@@ -167,11 +167,11 @@ position: absolute;
 	width: 148px;
 	
 }
-/* .support .content1 li:hover{
+.support .content1 li:hover{
 	box-shadow: 0 0 5px #999999;
 	-webkit-box-shadow: 0 0 5px #999999;
 	border-bottom: 8px solid rgb(72, 201, 46);
-} */
+}
 
 .support01{background: url(../img/矢量2.png) center 30%  no-repeat;  font-size: 14px;background-size:24% ;}
 .support02{background: url(../img/矢量3.png) center 30%  no-repeat; font-size: 14px;background-size:30% ;}

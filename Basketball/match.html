@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-	<title>Document</title>
+	<title>King Ball</title>
  
 </head>
 <link rel="stylesheet" type="text/css" href="match.css">
@@ -15,67 +15,192 @@
 				<li><a href="inde.html">首页</a></li>
 				<li><a href="video.html">视频</a></li>
 				<li><a href="match.html">赛事</a></li>
-				<li><a href="/">球队</a></li>
-				<li><a href="video.html">教程</a></li>
+				<li><a href="team.html">球队</a></li>
+				<li><a href="signin2.html">教程</a></li>
 			</ul>
 			<div id="signIn" >
-					<a href="/">登录</a>
+					<a href="signin.html">登录</a>
 					<span style="color:white">|</span>
-					<a href="/">注册</a>
+					<a href="register.html">注册</a>
 				</div>
 			</div>
 
-<div class="content">
-
-	<div style="margin-bottom:100px;">
-    
-        <div class="flex-container">
-		<a href="/league/329.html">
-		<div class="index_season_div" style="margin-top:40px;">
-			<div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-			<div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
-		</div>
-        </a>
-        <a href="/league/329.html">
-            <div class="index_season_div" style="margin-top:40px;">
-                <div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-                <div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
-            </div>
-            </a>
-
-            <a href="/league/329.html">
-                <div class="index_season_div" style="margin-top:40px;">
-                    <div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-                    <div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
+            <div class="content" style="margin-top:20px;">
+                <div class="chooser">
+                    <ul>
+                        <li><a id="link_finished_match" href="match.html" class="selected">已进行的比赛（35）</a></li>
+                        <li><a id="link_notstarted_match" href="signin2.html">未进行的比赛（31）</a></li>
+                    </ul>
                 </div>
-                </a>
+                <div style="overflow:hidden;margin:20px auto;clear:both;width:260px;">
+                    <div class="button_search" style="float:left;margin-left:5px;" onclick="search();"></div>
+                </div>
+                <div style="overflow:hidden;margin:20px auto 30px;clear:both;width:80px;">
+                    
+                    <div class="button_match_list" style="float:left;cursor:auto;"></div>
+                    <a style="float:left;" href="/Basketball/match.html"><div class="button_match_round_disabled" style="float:left;margin-left:10px;"></div></a>
+                    
+                    
+                </div>
+                
+            <div class="table_content" style="width:100%;margin-bottom:100px;">
+                <div>
+                
+                    <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                         
+                            <tr style="background-image:none;">
+                                <td>
+                                <div class="match_content">
+                                <div class="match_item_home_logo">
+                                
+                                
+                                <img src="/IMG/timg.jpeg">
+                                
+                                </div>
+                                <div class="match_item_content">
+                                    <div class="match_item_home_name">
+                                    东北大葱
+                                    </div>
+                                    <div class="match_item_score">
+                                            77&nbsp;:&nbsp;30
+                                    </div>
+                                    <div class="match_item_away_name">
+                                    成都穿不起A锥
+                                    </div>
+                                    <div class="match_item_info">
+                                    <br>
+                                    <span style="font-size:15px;line-height:30px;">全国总决赛</span><br>
+                                    2019-10-09 15:20
+                                    &nbsp;&nbsp;&nbsp;李宁体育馆<br>
+                                     浏览：205
+                                    </div>
+                                </div>
+                                <div class="match_item_away_logo">
+                                
+                                
+                                <img src="/IMG/3.jpeg">
+                                
+                                </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr style="background-image:none;">
+                                <td>
+                                <div class="match_content">
+                                <div class="match_item_home_logo">
+                                
+                                
+                                <img src="/IMG/timg.jpeg">
+                                
+                                </div>
+                                <div class="match_item_content">
+                                    <div class="match_item_home_name">
+                                    东北大葱
+                                    </div>
+                                    <div class="match_item_score">
+                                            77&nbsp;:&nbsp;30
+                                    </div>
+                                    <div class="match_item_away_name">
+                                    成都穿不起A锥
+                                    </div>
+                                    <div class="match_item_info">
+                                    <br>
+                                    <span style="font-size:15px;line-height:30px;">全国总决赛</span><br>
+                                    2019-10-09 15:20
+                                    &nbsp;&nbsp;&nbsp;李宁体育馆<br>
+                                     浏览：205
+                                    </div>
+                                </div>
+                                <div class="match_item_away_logo">
+                                
+                                
+                                <img src="/IMG/3.jpeg">
+                                
+                                </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr style="background-image:none;">
+                                <td>
+                                <div class="match_content">
+                                <div class="match_item_home_logo">
+                                
+                                
+                                <img src="/IMG/timg.jpeg">
+                                
+                                </div>
+                                <div class="match_item_content">
+                                    <div class="match_item_home_name">
+                                    东北大葱
+                                    </div>
+                                    <div class="match_item_score">
+                                            77&nbsp;:&nbsp;30
+                                    </div>
+                                    <div class="match_item_away_name">
+                                    成都穿不起A锥
+                                    </div>
+                                    <div class="match_item_info">
+                                    <br>
+                                    <span style="font-size:15px;line-height:30px;">全国总决赛</span><br>
+                                    2019-10-09 15:20
+                                    &nbsp;&nbsp;&nbsp;李宁体育馆<br>
+                                     浏览：205
+                                    </div>
+                                </div>
+                                <div class="match_item_away_logo">
+                                
+                                
+                                <img src="/IMG/3.jpeg">
+                                
+                                </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr style="background-image:none;">
+                                <td>
+                                <div class="match_content">
+                                <div class="match_item_home_logo">
+                                
+                                
+                                <img src="/IMG/timg.jpeg">
+                                
+                                </div>
+                                <div class="match_item_content">
+                                    <div class="match_item_home_name">
+                                    东北大葱
+                                    </div>
+                                    <div class="match_item_score">
+                                            77&nbsp;:&nbsp;30
+                                    </div>
+                                    <div class="match_item_away_name">
+                                    成都穿不起A锥
+                                    </div>
+                                    <div class="match_item_info">
+                                    <br>
+                                    <span style="font-size:15px;line-height:30px;">全国总决赛</span><br>
+                                    2019-10-09 15:20
+                                    &nbsp;&nbsp;&nbsp;李宁体育馆<br>
+                                     浏览：205
+                                    </div>
+                                </div>
+                                <div class="match_item_away_logo">
+                                
+                                
+                                <img src="/IMG/3.jpeg">
+                                
+                                </div>
+                                </div>
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                    </table>
+                    
+                
+                </div>
             </div>
-
-
-            <div class="flex-container">
-                <a href="/league/329.html">
-                    <div class="index_season_div" style="margin-top:40px;">
-                        <div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-                        <div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
-                    </div>
-                    </a>
-
-                    <a href="/league/329.html">
-                        <div class="index_season_div" style="margin-top:40px;">
-                            <div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-                            <div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
-                        </div>
-                        </a>
-
-                        <a href="/league/329.html">
-                            <div class="index_season_div" style="margin-top:40px;">
-                                <div class="index_season_image_div"><img style="margin:2%;width:96%;height:94%;" src="/IMG/1.jpg"></div>
-                                <div style="overflow:hidden" title="2019第二届钻石联赛" class="index_season_name_div">2019第二届钻石联赛</div>
-                            </div>
-                            </a>
-                        </div>
-        
-	<div style="clear:both;"></div>
+            </div>
 	</div>
 </body>
 </html>
